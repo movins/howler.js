@@ -61,7 +61,7 @@ Radio.prototype = {
       sound = data.howl = new Howl({
         src: data.src,
         html5: true, // A live stream can only be played through HTML5 Audio.
-        format: ['mp3', 'aac']
+        format: ['mp3', 'aac', 'mpeg']
       });
     }
 
